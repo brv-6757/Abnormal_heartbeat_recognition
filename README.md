@@ -1,6 +1,19 @@
 # 💓 Real-Time ECG Monitoring & Alert System using Raspberry Pi, ESP32, and AWS
-## 📌 Overview
-This repository demonstrates the real time deployment of Convolutional Neural Networks (CNN) based Autoencoders to perform anomaly detection on Electrocardiogram (ECG) data and send alerts in case of abnormality detected. Live ECG samples of heart rhythms are differentiated between normal and abnormal based on the reconstruction error. Model is implemented on Raspberry Pi and the ECG signal Aquisition is done by AD8232 integrated with ESP32.
+An IoT-based real-time health monitoring system that leverages edge computing and cloud services to detect abnormal ECG patterns and instantly notify healthcare providers via SMS. Designed to assist in **remote cardiac monitoring**, particularly for **critical patients** and **isolated areas**.  
+
+---
+
+## 🚀 Project Overview
+
+This project implements an end-to-end pipeline for real-time ECG signal acquisition, anomaly detection, and automatic emergency notification using:
+
+- 🧠 **Machine Learning (Autoencoder)**
+- 🌐 **MQTT Protocol**
+- 🧾 **AWS IoT Core & SNS**
+- 🧠 **Edge Computing with Raspberry Pi**
+- 📡 **Wireless data transmission via ESP32**
+
+---
 
 ## 📊 Dataset
 This dataset consolidates heartbeat signals from the renowned MIT-BIH Arrhythmia Dataset. With a substantial sample size, it serves as a foundation for training advanced neural networks.
@@ -28,24 +41,6 @@ This dataset consolidates heartbeat signals from the renowned MIT-BIH Arrhythmia
 * A recall of 100.00% means the model correctly identified all actual positives.
 * The F1 Score, a measure of the model's accuracy considering both precision and recall, stands at 99.82%.
 These metrics reflect the model's capability in ECG anomaly detection.
-
-
-
-An IoT-based real-time health monitoring system that leverages edge computing and cloud services to detect abnormal ECG patterns and instantly notify healthcare providers via SMS. Designed to assist in **remote cardiac monitoring**, particularly for **critical patients** and **isolated areas**.  
-
----
-
-## 🚀 Project Overview
-
-This project implements an end-to-end pipeline for real-time ECG signal acquisition, anomaly detection, and automatic emergency notification using:
-
-- 🧠 **Machine Learning (Autoencoder)**
-- 🌐 **MQTT Protocol**
-- 🧾 **AWS IoT Core & SNS**
-- 🧠 **Edge Computing with Raspberry Pi**
-- 📡 **Wireless data transmission via ESP32**
-
----
 
 ## 🛠️ System Architecture
 
