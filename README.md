@@ -1,4 +1,4 @@
-# 💓 Real-Time ECG Monitoring & Alert System using Raspberry Pi, ESP32, and AWS
+# 💓 Real-Time ECG Monitoring & Alert System
 An IoT-based real-time health monitoring system that leverages edge computing and cloud services to detect abnormal ECG patterns and instantly notify healthcare providers via SMS. Designed to assist in **remote cardiac monitoring**, particularly for **critical patients** and **isolated areas**.  
 
 ---
