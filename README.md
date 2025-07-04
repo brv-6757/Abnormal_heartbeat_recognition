@@ -54,4 +54,19 @@ graph TD
     E --> F[AWS SNS]
     F --> G[Alert to Hospital]
 
+## 🖼️ Hardware Modules
 
+Here are the key hardware components used in this project:
+
+<table>
+  <tr>
+    <td align="center"><b>AD8232 ECG Sensor</b></td>
+    <td align="center"><b>ESP32 Microcontroller</b></td>
+    <td align="center"><b>Raspberry Pi</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/ad8232.jpg" alt="AD8232 Sensor" width="200"/></td>
+    <td align="center"><img src="images/esp32.jpg" alt="ESP32" width="200"/></td>
+    <td align="center"><img src="images/raspberryPi.jpg" alt="Raspberry Pi" width="200"/></td>
+  </tr>
+</table>
