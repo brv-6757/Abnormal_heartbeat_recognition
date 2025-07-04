@@ -57,4 +57,4 @@ graph TD
     D -->|Normal ECG| E1[No Action]
     D -->|Abnormal ECG| E[AWS IoT Core]
     E --> F[AWS SNS]
-    F --> G[SMS Alert to Hospital]
+    F --> G[Alert to Hospital]
