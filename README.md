@@ -66,7 +66,7 @@ Here are the key hardware components used in this project:
   </tr>
   <tr>
     <td align="center"><img src="images/ad8232.jpg" alt="AD8232 Sensor" width="200"/></td>
-    <td align="center"><img src="images/esp32.jpg" alt="ESP32" width="200"/></td>
+    <td align="center"><img src="images/esp32.png" alt="ESP32" width="200"/></td>
     <td align="center"><img src="images/raspberryPi.jpg" alt="Raspberry Pi" width="200"/></td>
   </tr>
 </table>
