@@ -53,7 +53,7 @@ graph TD
     D -->|Abnormal ECG| E[AWS IoT Core]
     E --> F[AWS SNS]
     F --> G[Alert to Hospital]
-
+```
 ## Hardware Modules
 
 Here are the key hardware components used in this project:
