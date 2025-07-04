@@ -51,10 +51,10 @@ This project implements an end-to-end pipeline for real-time ECG signal acquisit
 
 ```mermaid
 graph TD
-    A[👤 Patient with ECG Sensor (AD8232)] --> B[📶 ESP32 (MQTT Publisher)]
-    B --> C[(🌐 Raspberry Pi MQTT Broker)]
-    C --> D[🧠 Autoencoder Model]
-    D -->|✅ Normal ECG| E1[✅ No Action]
-    D -->|❌ Abnormal ECG (High Reconstruction Error)| E[📤 Publish to AWS IoT Core]
-    E --> F[📨 SNS (Simple Notification Service)]
-    F --> G[📱 SMS Alert to Hospital Number]
+    A[Patient with ECG Sensor (AD8232)] --> B[ESP32 (MQTT Publisher)]
+    B --> C[Raspberry Pi MQTT Broker]
+    C --> D[Autoencoder Model]
+    D -->|Normal ECG| E1[No Action]
+    D -->|Abnormal ECG (High Reconstruction Error)| E[AWS IoT Core]
+    E --> F[SNS (Simple Notification Service)]
+    F --> G[SMS Alert to Hospital]
